@@ -2,19 +2,19 @@ import Image from 'next/image'
 
 const Features = () => {
   return (
-    <section class="bg-white ">
-      <div class="container px-6 py-10 mx-auto">
-        <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl  text-center">
-          explore our awesome <span class="text-blue-500">Components</span>
+    <section className="bg-white ">
+      <div className="container px-6 py-10 mx-auto">
+        <h1 className="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl  text-center">
+          explore our awesome <span className="text-blue-500">Components</span>
         </h1>
 
-        <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2">
-          <div class="p-6 border rounded-xl border-r-gray-200 ">
-            <div class="md:flex md:items-start md:-mx-4">
-              <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4  ">
+        <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2">
+          <div className="p-6 border rounded-xl border-r-gray-200 ">
+            <div className="md:flex md:items-start md:-mx-4">
+              <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4  ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-6 h-6"
+                  className="w-6 h-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -28,10 +28,10 @@ const Features = () => {
                 </svg>
               </span>
 
-              <div class="mt-4 md:mx-4 md:mt-0">
-                <h1 class="text-2xl font-medium text-gray-700 capitalize ">Copy & paste components</h1>
+              <div className="mt-4 md:mx-4 md:mt-0">
+                <h1 className="text-2xl font-medium text-gray-700 capitalize ">Copy & paste components</h1>
 
-                <p class="mt-3 text-gray-500 ">
+                <p className="mt-3 text-gray-500 ">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non
                   corrupti doloribus voluptatum eveniet
                 </p>
@@ -39,12 +39,12 @@ const Features = () => {
             </div>
           </div>
 
-          <div class="p-6 border rounded-xl border-r-gray-200 ">
-            <div class="md:flex md:items-start md:-mx-4">
-              <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4  ">
+          <div className="p-6 border rounded-xl border-r-gray-200 ">
+            <div className="md:flex md:items-start md:-mx-4">
+              <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4  ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-6 h-6"
+                  className="w-6 h-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -58,10 +58,10 @@ const Features = () => {
                 </svg>
               </span>
 
-              <div class="mt-4 md:mx-4 md:mt-0">
-                <h1 class="text-2xl font-medium text-gray-700 capitalize ">Zero Configrations</h1>
+              <div className="mt-4 md:mx-4 md:mt-0">
+                <h1 className="text-2xl font-medium text-gray-700 capitalize ">Zero Configrations</h1>
 
-                <p class="mt-3 text-gray-500 ">
+                <p className="mt-3 text-gray-500 ">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non
                   corrupti doloribus voluptatum eveniet
                 </p>
@@ -69,12 +69,12 @@ const Features = () => {
             </div>
           </div>
 
-          <div class="p-6 border rounded-xl border-r-gray-200 ">
-            <div class="md:flex md:items-start md:-mx-4">
-              <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4  ">
+          <div className="p-6 border rounded-xl border-r-gray-200 ">
+            <div className="md:flex md:items-start md:-mx-4">
+              <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4  ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-6 h-6"
+                  className="w-6 h-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -94,10 +94,10 @@ const Features = () => {
                 </svg>
               </span>
 
-              <div class="mt-4 md:mx-4 md:mt-0">
-                <h1 class="text-2xl font-medium text-gray-700 capitalize ">elegant Dark Mode</h1>
+              <div className="mt-4 md:mx-4 md:mt-0">
+                <h1 className="text-2xl font-medium text-gray-700 capitalize ">elegant Dark Mode</h1>
 
-                <p class="mt-3 text-gray-500 ">
+                <p className="mt-3 text-gray-500 ">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non
                   corrupti doloribus voluptatum eveniet
                 </p>
@@ -105,12 +105,12 @@ const Features = () => {
             </div>
           </div>
 
-          <div class="p-6 border rounded-xl border-r-gray-200 ">
-            <div class="md:flex md:items-start md:-mx-4">
-              <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4  ">
+          <div className="p-6 border rounded-xl border-r-gray-200 ">
+            <div className="md:flex md:items-start md:-mx-4">
+              <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4  ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-6 h-6"
+                  className="w-6 h-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -124,10 +124,10 @@ const Features = () => {
                 </svg>
               </span>
 
-              <div class="mt-4 md:mx-4 md:mt-0">
-                <h1 class="text-2xl font-medium text-gray-700 capitalize ">Simple & clean designs</h1>
+              <div className="mt-4 md:mx-4 md:mt-0">
+                <h1 className="text-2xl font-medium text-gray-700 capitalize ">Simple & clean designs</h1>
 
-                <p class="mt-3 text-gray-500 ">
+                <p className="mt-3 text-gray-500 ">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non
                   corrupti doloribus voluptatum eveniet
                 </p>

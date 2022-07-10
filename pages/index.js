@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <>
       <div className="h-full  text-white overflow-hidden" id="top">
-        <div className="banner pb-10">
+        <div className="banner pb-20">
           <Navbar />
           <Hero />
           <Networks />
@@ -29,9 +29,7 @@ const Home = () => {
         <Features />
         <Stats />
         <Pricing />
-
         <AboutUs />
-
         <FAQ />
         <Container>
           <div

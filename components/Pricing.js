@@ -2,40 +2,40 @@ import Image from 'next/image'
 
 const Pricing = () => {
   return (
-    <div class="bg-white ">
-      <div class="bg-white">
-        <div class="container px-6 py-8 mx-auto">
-          <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl  text-center">Price</h1>
-          <div class="xl:items-center xl:-mx-8 xl:flex">
-            <div class="flex-1 xl:mx-8">
-              <div class="mt-8 space-y-8 md:-mx-4 md:flex md:items-center md:justify-center md:space-y-0 xl:mt-0">
-                <div class="max-w-sm mx-auto border rounded-lg md:mx-4 ">
-                  <div class="p-6">
-                    <h1 class="text-xl font-medium text-gray-700 capitalize lg:text-3xl ">Essential</h1>
+    <div className="bg-white ">
+      <div className="bg-white">
+        <div className="container px-6 py-8 mx-auto">
+          <h1 className="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl  text-center">Price</h1>
+          <div className="xl:items-center xl:-mx-8 xl:flex">
+            <div className="flex-1 xl:mx-8">
+              <div className="mt-8 space-y-8 md:-mx-4 md:flex md:items-center md:justify-center md:space-y-0 xl:mt-0">
+                <div className="max-w-sm mx-auto border rounded-lg md:mx-4 ">
+                  <div className="p-6">
+                    <h1 className="text-xl font-medium text-gray-700 capitalize lg:text-3xl ">Essential</h1>
 
-                    <p class="mt-4 text-gray-500 ">
+                    <p className="mt-4 text-gray-500 ">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
                     </p>
 
-                    <h2 class="mt-4 text-2xl font-medium text-gray-700 sm:text-4xl ">
-                      ◎6 <span class="text-base font-medium">/Month</span>
+                    <h2 className="mt-4 text-2xl font-medium text-gray-700 sm:text-4xl ">
+                      ◎6 <span className="text-base font-medium">/Month</span>
                     </h2>
 
-                    <p class="mt-1 text-gray-500 ">Yearly payment</p>
+                    <p className="mt-1 text-gray-500 ">Yearly payment</p>
 
-                    <button class="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                    <button className="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
                       Start Now
                     </button>
                   </div>
 
-                  <div class="p-6">
-                    <h1 class="text-lg font-medium text-gray-700 capitalize lg:text-xl ">What’s included:</h1>
+                  <div className="p-6">
+                    <h1 className="text-lg font-medium text-gray-700 capitalize lg:text-xl ">What’s included:</h1>
 
-                    <div class="mt-8 space-y-4">
-                      <div class="flex items-center">
+                    <div className="mt-8 space-y-4">
+                      <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="w-5 h-5 text-blue-500"
+                          className="w-5 h-5 text-blue-500"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -46,13 +46,13 @@ const Pricing = () => {
                           />
                         </svg>
 
-                        <span class="mx-4 text-gray-700 ">All limited links</span>
+                        <span className="mx-4 text-gray-700 ">All limited links</span>
                       </div>
 
-                      <div class="flex items-center">
+                      <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="w-5 h-5 text-blue-500"
+                          className="w-5 h-5 text-blue-500"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -63,13 +63,13 @@ const Pricing = () => {
                           />
                         </svg>
 
-                        <span class="mx-4 text-gray-700 ">Own analytics platform</span>
+                        <span className="mx-4 text-gray-700 ">Own analytics platform</span>
                       </div>
 
-                      <div class="flex items-center">
+                      <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="w-5 h-5 text-blue-500"
+                          className="w-5 h-5 text-blue-500"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -80,13 +80,13 @@ const Pricing = () => {
                           />
                         </svg>
 
-                        <span class="mx-4 text-gray-700 ">Chat support</span>
+                        <span className="mx-4 text-gray-700 ">Chat support</span>
                       </div>
 
-                      <div class="flex items-center">
+                      <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="w-5 h-5 text-blue-500"
+                          className="w-5 h-5 text-blue-500"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -97,13 +97,13 @@ const Pricing = () => {
                           />
                         </svg>
 
-                        <span class="mx-4 text-gray-700 ">Optimize hashtags</span>
+                        <span className="mx-4 text-gray-700 ">Optimize hashtags</span>
                       </div>
 
-                      <div class="flex items-center">
+                      <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="w-5 h-5 text-red-400"
+                          className="w-5 h-5 text-red-400"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -114,13 +114,13 @@ const Pricing = () => {
                           />
                         </svg>
 
-                        <span class="mx-4 text-gray-700 ">Mobile app</span>
+                        <span className="mx-4 text-gray-700 ">Mobile app</span>
                       </div>
 
-                      <div class="flex items-center">
+                      <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="w-5 h-5 text-red-400"
+                          className="w-5 h-5 text-red-400"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -131,39 +131,39 @@ const Pricing = () => {
                           />
                         </svg>
 
-                        <span class="mx-4 text-gray-700 ">Unlimited users</span>
+                        <span className="mx-4 text-gray-700 ">Unlimited users</span>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="max-w-sm mx-auto border rounded-lg md:mx-4 ">
-                  <div class="p-6">
-                    <h1 class="text-xl font-medium text-gray-700 capitalize lg:text-3xl ">Premium</h1>
+                <div className="max-w-sm mx-auto border rounded-lg md:mx-4 ">
+                  <div className="p-6">
+                    <h1 className="text-xl font-medium text-gray-700 capitalize lg:text-3xl ">Premium</h1>
 
-                    <p class="mt-4 text-gray-500 ">
+                    <p className="mt-4 text-gray-500 ">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
                     </p>
 
-                    <h2 class="mt-4 text-2xl font-medium text-gray-700 sm:text-4xl ">
-                      $50.00 <span class="text-base font-medium">/life time</span>
+                    <h2 className="mt-4 text-2xl font-medium text-gray-700 sm:text-4xl ">
+                      $50.00 <span className="text-base font-medium">/life time</span>
                     </h2>
 
-                    <p class="mt-1 text-gray-500 ">One time payment</p>
+                    <p className="mt-1 text-gray-500 ">One time payment</p>
 
-                    <button class="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                    <button className="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
                       Start Now
                     </button>
                   </div>
 
-                  <div class="p-6">
-                    <h1 class="text-lg font-medium text-gray-700 capitalize lg:text-xl ">What’s included:</h1>
+                  <div className="p-6">
+                    <h1 className="text-lg font-medium text-gray-700 capitalize lg:text-xl ">What’s included:</h1>
 
-                    <div class="mt-8 space-y-4">
-                      <div class="flex items-center">
+                    <div className="mt-8 space-y-4">
+                      <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="w-5 h-5 text-blue-500"
+                          className="w-5 h-5 text-blue-500"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -174,13 +174,13 @@ const Pricing = () => {
                           />
                         </svg>
 
-                        <span class="mx-4 text-gray-700 ">All limited links</span>
+                        <span className="mx-4 text-gray-700 ">All limited links</span>
                       </div>
 
-                      <div class="flex items-center">
+                      <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="w-5 h-5 text-blue-500"
+                          className="w-5 h-5 text-blue-500"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -191,13 +191,13 @@ const Pricing = () => {
                           />
                         </svg>
 
-                        <span class="mx-4 text-gray-700 ">Own analytics platform</span>
+                        <span className="mx-4 text-gray-700 ">Own analytics platform</span>
                       </div>
 
-                      <div class="flex items-center">
+                      <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="w-5 h-5 text-blue-500"
+                          className="w-5 h-5 text-blue-500"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -208,13 +208,13 @@ const Pricing = () => {
                           />
                         </svg>
 
-                        <span class="mx-4 text-gray-700 ">Chat support</span>
+                        <span className="mx-4 text-gray-700 ">Chat support</span>
                       </div>
 
-                      <div class="flex items-center">
+                      <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="w-5 h-5 text-blue-500"
+                          className="w-5 h-5 text-blue-500"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -225,13 +225,13 @@ const Pricing = () => {
                           />
                         </svg>
 
-                        <span class="mx-4 text-gray-700 ">Optimize hashtags</span>
+                        <span className="mx-4 text-gray-700 ">Optimize hashtags</span>
                       </div>
 
-                      <div class="flex items-center">
+                      <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="w-5 h-5 text-blue-500"
+                          className="w-5 h-5 text-blue-500"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -242,13 +242,13 @@ const Pricing = () => {
                           />
                         </svg>
 
-                        <span class="mx-4 text-gray-700 ">Mobile app</span>
+                        <span className="mx-4 text-gray-700 ">Mobile app</span>
                       </div>
 
-                      <div class="flex items-center">
+                      <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="w-5 h-5 text-blue-500"
+                          className="w-5 h-5 text-blue-500"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -259,38 +259,38 @@ const Pricing = () => {
                           />
                         </svg>
 
-                        <span class="mx-4 text-gray-700 ">Unlimited users</span>
+                        <span className="mx-4 text-gray-700 ">Unlimited users</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="max-w-sm mx-auto border rounded-lg md:mx-4 ">
-                  <div class="p-6">
-                    <h1 class="text-xl font-medium text-gray-700 capitalize lg:text-3xl ">Premium</h1>
+                <div className="max-w-sm mx-auto border rounded-lg md:mx-4 ">
+                  <div className="p-6">
+                    <h1 className="text-xl font-medium text-gray-700 capitalize lg:text-3xl ">Premium</h1>
 
-                    <p class="mt-4 text-gray-500 ">
+                    <p className="mt-4 text-gray-500 ">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
                     </p>
 
-                    <h2 class="mt-4 text-2xl font-medium text-gray-700 sm:text-4xl ">
-                      $50.00 <span class="text-base font-medium">/life time</span>
+                    <h2 className="mt-4 text-2xl font-medium text-gray-700 sm:text-4xl ">
+                      $50.00 <span className="text-base font-medium">/life time</span>
                     </h2>
 
-                    <p class="mt-1 text-gray-500 ">One time payment</p>
+                    <p className="mt-1 text-gray-500 ">One time payment</p>
 
-                    <button class="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                    <button className="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
                       Start Now
                     </button>
                   </div>
 
-                  <div class="p-6">
-                    <h1 class="text-lg font-medium text-gray-700 capitalize lg:text-xl ">What’s included:</h1>
+                  <div className="p-6">
+                    <h1 className="text-lg font-medium text-gray-700 capitalize lg:text-xl ">What’s included:</h1>
 
-                    <div class="mt-8 space-y-4">
-                      <div class="flex items-center">
+                    <div className="mt-8 space-y-4">
+                      <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="w-5 h-5 text-blue-500"
+                          className="w-5 h-5 text-blue-500"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -301,13 +301,13 @@ const Pricing = () => {
                           />
                         </svg>
 
-                        <span class="mx-4 text-gray-700 ">All limited links</span>
+                        <span className="mx-4 text-gray-700 ">All limited links</span>
                       </div>
 
-                      <div class="flex items-center">
+                      <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="w-5 h-5 text-blue-500"
+                          className="w-5 h-5 text-blue-500"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -318,13 +318,13 @@ const Pricing = () => {
                           />
                         </svg>
 
-                        <span class="mx-4 text-gray-700 ">Own analytics platform</span>
+                        <span className="mx-4 text-gray-700 ">Own analytics platform</span>
                       </div>
 
-                      <div class="flex items-center">
+                      <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="w-5 h-5 text-blue-500"
+                          className="w-5 h-5 text-blue-500"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -335,13 +335,13 @@ const Pricing = () => {
                           />
                         </svg>
 
-                        <span class="mx-4 text-gray-700 ">Chat support</span>
+                        <span className="mx-4 text-gray-700 ">Chat support</span>
                       </div>
 
-                      <div class="flex items-center">
+                      <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="w-5 h-5 text-blue-500"
+                          className="w-5 h-5 text-blue-500"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -352,13 +352,13 @@ const Pricing = () => {
                           />
                         </svg>
 
-                        <span class="mx-4 text-gray-700 ">Optimize hashtags</span>
+                        <span className="mx-4 text-gray-700 ">Optimize hashtags</span>
                       </div>
 
-                      <div class="flex items-center">
+                      <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="w-5 h-5 text-blue-500"
+                          className="w-5 h-5 text-blue-500"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -369,13 +369,13 @@ const Pricing = () => {
                           />
                         </svg>
 
-                        <span class="mx-4 text-gray-700 ">Mobile app</span>
+                        <span className="mx-4 text-gray-700 ">Mobile app</span>
                       </div>
 
-                      <div class="flex items-center">
+                      <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="w-5 h-5 text-blue-500"
+                          className="w-5 h-5 text-blue-500"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -386,7 +386,7 @@ const Pricing = () => {
                           />
                         </svg>
 
-                        <span class="mx-4 text-gray-700 ">Unlimited users</span>
+                        <span className="mx-4 text-gray-700 ">Unlimited users</span>
                       </div>
                     </div>
                   </div>
