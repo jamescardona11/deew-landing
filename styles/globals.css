@@ -3,6 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.banner {
+  background-image: url('../public/banner-bg.png');
+  z-index: -1;
+  content: '';
+  will-change: transform;
+  /* background-repeat: no-repeat; */
+}
+
 .main_bg {
   background: rgb(152, 77, 56);
   background: linear-gradient(

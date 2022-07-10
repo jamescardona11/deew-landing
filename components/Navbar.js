@@ -2,29 +2,12 @@ import useWindowSize from '@/hooks/useWindowSize;'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useEffect, useRef, useState } from 'react'
-import { Button, Container, Input, Logo } from '.'
+import { Button, Container, Logo } from '.'
 const Navbar = () => {
   const [menu, setMenu] = useState(false)
   const { width } = useWindowSize()
   const toggleMenu = () => setMenu(!menu)
   const closeMenu = () => setMenu(false)
-
-  const refMenu = useRef(null)
-
-  useEffect(() => {
-    const handleClick = (e) => {
-      if (refMenu.current) {
-        if (refMenu.current.contains(e.target)) {
-          return
-        }
-      }
-      closeMenu()
-    }
-    document.addEventListener('mousedown', handleClick)
-    return () => {
-      document.removeEventListener('mousedown', handleClick)
-    }
-  }, [])
 
   return (
     <div className="py-4 relative">
@@ -49,9 +32,6 @@ const Navbar = () => {
 const ContentSidebar = ({ toggleMenu }) => {
   return (
     <div className="items-center flex-col sm:flex-row flex">
-      <div className="block sm:hidden lg:block">
-        <Input />
-      </div>
       <Link href="/#collections">
         <a onClick={toggleMenu} className="mb-3 sm:mb-0 mt-4 sm:mt-0 ml-0 sm:ml-7">
           Collections
@@ -67,7 +47,6 @@ const ContentSidebar = ({ toggleMenu }) => {
           FAQ
         </a>
       </Link>
-      <Button variant={'primary'}>Select Wallet</Button>
     </div>
   )
 }
