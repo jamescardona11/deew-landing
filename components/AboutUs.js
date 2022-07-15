@@ -5,9 +5,9 @@ import Image from 'next/image'
 const AboutUs = () => {
   return (
     <Container className={'mb-44 scroll-mt-10'} id="about">
-      <div className="text-center mb-8">
-        <h2 className="font-bold text-3xl mb-2">About Us</h2>
-        <p className="opacity-50 w-full  sm:w-[400px] mx-auto">
+      <div className="text-center mb-8 mt-20">
+        <h2 className="font-bold text-3xl mb-2 text-gray-900">About Us</h2>
+        <p className="opacity-50 w-full  sm:w-[400px] mx-auto text-gray-700">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
@@ -18,29 +18,28 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="flex-1 ml-0 sm:ml-10 lg:ml-20">
-          <h3 className="font-bold text-2xl mb-3">Get Popular NFT</h3>
-          <p className="mb-3 opacity-50">
+          <h3 className="font-bold text-2xl mb-3 text-gray-700">Get Popular NFT</h3>
+          <p className="mb-3 opacity-50 text-gray-700">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis
             tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit
             sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora
             torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac
             scelerisque ante pulvinar.{' '}
           </p>
-          <p className="mb-3 opacity-50">
+          <p className="mb-3 opacity-50 text-gray-700">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis
             tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit
             sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora
             torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac
             scelerisque ante pulvinar.{' '}
           </p>
-          <p className="hidden lg:block mb-3 opacity-50">
+          <p className="hidden lg:block mb-3 opacity-50 text-gray-700">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis
             tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit
             sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora
             torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac
             scelerisque ante pulvinar.{' '}
           </p>
-          <Button variant={'primary'}>Show more</Button>
         </div>
       </div>
     </Container>

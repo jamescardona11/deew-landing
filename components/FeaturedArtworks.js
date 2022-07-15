@@ -13,7 +13,7 @@ const FeaturedArtworks = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-flow-row-dense grid-flow-col-dense-dense sm:grid-cols-2  md:grid-cols-3 gap-4">
         {list_artwork.map((item, i) => (
-          <NFTItem data={item} />
+          <NFTItem key={i} data={item} />
         ))}
       </div>
     </Container>
