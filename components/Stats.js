@@ -10,8 +10,8 @@ const Stats = () => {
                   Get maximum results from all your projects.
                 </h2>
                 <p className="mb-20 text-base text-gray-600">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
-                  enim velit mollit. Exercitation veniam consequat.
+                  Don't worry about the develop and take care for the most important; build a strong community to grow
+                  your brand.
                 </p>
                 <ul>
                   <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">

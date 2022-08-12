@@ -5,7 +5,7 @@ const Features = () => {
     <section className="bg-white ">
       <div className="container px-6 py-10 mx-auto">
         <h1 className="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl  text-center">
-          explore our awesome <span className="text-blue-500">Components</span>
+          explore our awesome <span className="text-blue-500">Features</span>
         </h1>
 
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2">
@@ -29,11 +29,10 @@ const Features = () => {
               </span>
 
               <div className="mt-4 md:mx-4 md:mt-0">
-                <h1 className="text-2xl font-medium text-gray-700 capitalize ">Copy & paste components</h1>
+                <h1 className="text-2xl font-medium text-gray-700 capitalize ">Easy for you</h1>
 
                 <p className="mt-3 text-gray-500 ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non
-                  corrupti doloribus voluptatum eveniet
+                  Our tools are designed for everyone. You don’t need to be a blockchain expert. We provide everything.
                 </p>
               </div>
             </div>
@@ -59,11 +58,10 @@ const Features = () => {
               </span>
 
               <div className="mt-4 md:mx-4 md:mt-0">
-                <h1 className="text-2xl font-medium text-gray-700 capitalize ">Zero Configrations</h1>
+                <h1 className="text-2xl font-medium text-gray-700 capitalize ">Fully Featured</h1>
 
                 <p className="mt-3 text-gray-500 ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non
-                  corrupti doloribus voluptatum eveniet
+                  You have control over every aspect of your collection: artwork, traits, rarity, and all.
                 </p>
               </div>
             </div>
@@ -95,11 +93,10 @@ const Features = () => {
               </span>
 
               <div className="mt-4 md:mx-4 md:mt-0">
-                <h1 className="text-2xl font-medium text-gray-700 capitalize ">elegant Dark Mode</h1>
+                <h1 className="text-2xl font-medium text-gray-700 capitalize ">Launch Ready</h1>
 
                 <p className="mt-3 text-gray-500 ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non
-                  corrupti doloribus voluptatum eveniet
+                  When finished, export directly to image & metadata pairs, packaged for deployment.
                 </p>
               </div>
             </div>
@@ -125,11 +122,10 @@ const Features = () => {
               </span>
 
               <div className="mt-4 md:mx-4 md:mt-0">
-                <h1 className="text-2xl font-medium text-gray-700 capitalize ">Simple & clean designs</h1>
+                <h1 className="text-2xl font-medium text-gray-700 capitalize ">Simple & clean</h1>
 
                 <p className="mt-3 text-gray-500 ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non
-                  corrupti doloribus voluptatum eveniet
+                  We provide tools, support, and customization. You have 100% control over everything
                 </p>
               </div>
             </div>
