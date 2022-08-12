@@ -1,4 +1,4 @@
-import { list_artwork } from '@/fake_data'
+import { list_artwork } from '@/data/faq'
 import React from 'react'
 import { Container, NFTItem } from '.'
 

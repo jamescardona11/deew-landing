@@ -1,9 +1,11 @@
 export const headerNavLinks = [
   { href: '/', title: 'Home' },
-  { href: '#collection', title: 'Collections' },
   { href: '#features', title: 'Features' },
-  { href: '#projects', title: 'Proyectos' },
-  { href: '#about', title: 'Acerca de mi' },
+  // { href: '#weare', title: 'Features' },
+  { href: '#price', title: 'Precio' },
+  { href: '#about', title: 'Acerca de nosotros' },
+  { href: '#faq', title: 'FAQ' },
+  { href: '#contactus', title: 'Contacto' },
 ]
 
 export default headerNavLinks

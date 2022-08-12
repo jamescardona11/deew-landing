@@ -74,7 +74,7 @@ module.exports = {
         //   800: '#ff538b',
         //   900: '#ff417b',
         // },
-        primary: colors.purple,
+        primary: colors.blue,
         gray: colors.neutral,
       },
       typography: (theme) => ({

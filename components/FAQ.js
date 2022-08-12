@@ -1,4 +1,4 @@
-import { list_FAQ } from '@/fake_data'
+import { list_FAQ } from '@/data/faq'
 import React, { useState } from 'react'
 import { Container } from '.'
 
@@ -19,10 +19,10 @@ const FAQ = () => {
     <Container className={'mb-44 scroll-mt-10'} id="faq">
       <div className="text-center mb-10">
         <h2 className="font-bold mx-auto leading-snug w-full sm:w-[400px] text-3xl mb-2 text-gray-900">
-          Freaquently Asked Question
+          Preguntas frecuentes
         </h2>
 
-        <p className="opacity-50 text-gray-700">Wanna Ask Something?</p>
+        {/* <p className="opacity-50 text-gray-700">Wanna Ask Something?</p> */}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-900">
         {faq.map((item, i) => (

@@ -1,4 +1,4 @@
-import { list_collection } from '@/fake_data'
+import { list_collection } from '@/data/faq'
 import React, { useState } from 'react'
 import { Button, Container, NFTItem } from '.'
 

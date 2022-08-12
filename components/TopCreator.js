@@ -1,4 +1,4 @@
-import { list_top_creator } from '@/fake_data'
+import { list_top_creator } from '@/data/faq'
 import React from 'react'
 import { Container, CreatorItem } from '.'
 

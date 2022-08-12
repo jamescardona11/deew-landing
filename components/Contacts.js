@@ -7,11 +7,11 @@ export const Contacts = () => {
     <Container className="bg-white">
       <div
         className={
-          'bg-gradient-to-b from-[#B75CFF] to-[#671AE4] rounded-xl py-10 px-5 flex items-center justify-center shadow-lg flex-col'
+          'bg-gradient-to-b from-[#645cff] to-[#671AE4] rounded-xl py-10 px-5 flex items-center justify-center shadow-lg flex-col'
         }
       >
         <h2 className="font-bold text-2xl sm:text-4xl lg:text-5xl mb-5 w-full md:w-2/5 leading-snug text-center">
-          Get ready to collect our NFT
+          Listo para iniciar
         </h2>
       </div>
       <section>
@@ -19,16 +19,14 @@ export const Contacts = () => {
           <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
             <div className="lg:py-12 lg:col-span-2">
               <p className="max-w-xl text-lg text-gray-700">
-                At the same time, the fact that we are wholly owned and totally independent from manufacturer and other
-                group control gives you confidence that we will only recommend what is right for you.
+                Si tienes alguna pregunta o alguna inquietud antes de iniciar un procedo con nosotros, puedes ponerte en
+                contacto con nosotros por medio de este formulario o contactándonos por medio de Instagram o Discord.
               </p>
 
               <div className="mt-8">
-                <a href="" className="text-2xl font-bold text-pink-600">
+                <a href="" className="text-2xl font-bold text-primary-500">
                   Contact us:
                 </a>
-
-                <address className="mt-2 not-italic">282 Kevin Brook, Imogeneborough, CA 58517</address>
               </div>
             </div>
 
@@ -36,10 +34,10 @@ export const Contacts = () => {
               <form action="" className="space-y-4">
                 <div>
                   <label className="sr-only" htmlFor="name">
-                    Name
+                    Nombre
                   </label>
                   <input
-                    className="w-full p-3 text-sm border-gray-200 rounded-lg"
+                    className="w-full p-3 text-sm border-gray-200 rounded-lg text-black"
                     placeholder="Name"
                     type="text"
                     id="name"
@@ -52,7 +50,7 @@ export const Contacts = () => {
                       Email
                     </label>
                     <input
-                      className="w-full p-3 text-sm border-gray-200 rounded-lg"
+                      className="w-full p-3 text-sm border-gray-200 rounded-lg text-black"
                       placeholder="Email address"
                       type="email"
                       id="email"
@@ -61,10 +59,10 @@ export const Contacts = () => {
 
                   <div>
                     <label className="sr-only" htmlFor="phone">
-                      Phone
+                      Teléfono
                     </label>
                     <input
-                      className="w-full p-3 text-sm border-gray-200 rounded-lg"
+                      className="w-full p-3 text-sm border-gray-200 rounded-lg text-black"
                       placeholder="Phone Number"
                       type="tel"
                       id="phone"
@@ -72,47 +70,12 @@ export const Contacts = () => {
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 gap-4 text-center sm:grid-cols-3">
-                  <div>
-                    <input className="sr-only" id="option1" type="radio" tabIndex="-1" />
-                    <label
-                      htmlFor="option1"
-                      className="block w-full p-3 border border-gray-200 rounded-lg"
-                      tabIndex="0"
-                    >
-                      <span className="text-sm font-medium"> Option 1 </span>
-                    </label>
-                  </div>
-
-                  <div>
-                    <input className="sr-only" id="option2" type="radio" tabIndex="-1" />
-                    <label
-                      htmlFor="option2"
-                      className="block w-full p-3 border border-gray-200 rounded-lg"
-                      tabIndex="0"
-                    >
-                      <span className="text-sm font-medium"> Option 2 </span>
-                    </label>
-                  </div>
-
-                  <div>
-                    <input className="sr-only" id="option3" type="radio" tabIndex="-1" />
-                    <label
-                      htmlFor="option3"
-                      className="block w-full p-3 border border-gray-200 rounded-lg"
-                      tabIndex="0"
-                    >
-                      <span className="text-sm font-medium"> Option 3 </span>
-                    </label>
-                  </div>
-                </div>
-
                 <div>
                   <label className="sr-only" htmlFor="message">
-                    Message
+                    Mensaje
                   </label>
                   <textarea
-                    className="w-full p-3 text-sm border-gray-200 rounded-lg"
+                    className="w-full p-3 text-sm border-gray-200 rounded-lg text-black"
                     placeholder="Message"
                     rows="8"
                     id="message"
@@ -124,7 +87,7 @@ export const Contacts = () => {
                     type="submit"
                     className="inline-flex items-center justify-center w-full px-5 py-3 text-white bg-black rounded-lg sm:w-auto"
                   >
-                    <span className="font-medium"> Send Enquiry </span>
+                    <span className="font-medium"> Enviar consulta </span>
 
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

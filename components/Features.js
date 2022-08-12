@@ -4,8 +4,8 @@ const Features = () => {
   return (
     <section className="bg-white ">
       <div className="container px-6 py-10 mx-auto">
-        <h1 className="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl  text-center">
-          explore our awesome <span className="text-blue-500">Features</span>
+        <h1 className="text-3xl font-semibold text-gray-800  lg:text-4xl  text-center">
+          Explora <span className="text-blue-500">features</span> al trabajar con nosotros.
         </h1>
 
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2">
@@ -29,10 +29,11 @@ const Features = () => {
               </span>
 
               <div className="mt-4 md:mx-4 md:mt-0">
-                <h1 className="text-2xl font-medium text-gray-700 capitalize ">Easy for you</h1>
+                <h1 className="text-2xl font-medium text-gray-700  ">Fácil para ti</h1>
 
                 <p className="mt-3 text-gray-500 ">
-                  Our tools are designed for everyone. You don’t need to be a blockchain expert. We provide everything.
+                  Usamos las últimas tecnologías y herramientas diseñadas por nosotros. No necesitas tener conocimiento
+                  blockchain. Nosotros tenemos todo.
                 </p>
               </div>
             </div>
@@ -58,10 +59,11 @@ const Features = () => {
               </span>
 
               <div className="mt-4 md:mx-4 md:mt-0">
-                <h1 className="text-2xl font-medium text-gray-700 capitalize ">Fully Featured</h1>
+                <h1 className="text-2xl font-medium text-gray-700 capitalize ">Personalización</h1>
 
                 <p className="mt-3 text-gray-500 ">
-                  You have control over every aspect of your collection: artwork, traits, rarity, and all.
+                  Tienes el control sobre todos los aspectos de tu colección. Te ayudamos en el paso a paso para que sea
+                  un lanzamiento exitoso.
                 </p>
               </div>
             </div>
@@ -93,11 +95,9 @@ const Features = () => {
               </span>
 
               <div className="mt-4 md:mx-4 md:mt-0">
-                <h1 className="text-2xl font-medium text-gray-700 capitalize ">Launch Ready</h1>
+                <h1 className="text-2xl font-medium text-gray-700  ">Simple y rápido</h1>
 
-                <p className="mt-3 text-gray-500 ">
-                  When finished, export directly to image & metadata pairs, packaged for deployment.
-                </p>
+                <p className="mt-3 text-gray-500 ">Hacemos el trabajo duro por ti y lo hacemos simple y rápido.</p>
               </div>
             </div>
           </div>
@@ -122,10 +122,10 @@ const Features = () => {
               </span>
 
               <div className="mt-4 md:mx-4 md:mt-0">
-                <h1 className="text-2xl font-medium text-gray-700 capitalize ">Simple & clean</h1>
+                <h1 className="text-2xl font-medium text-gray-700 capitalize ">Transparencia</h1>
 
                 <p className="mt-3 text-gray-500 ">
-                  We provide tools, support, and customization. You have 100% control over everything
+                  Cuando finalizamos, exportamos todo y entregamos el código fuente para que puedas hacer auditoría.
                 </p>
               </div>
             </div>

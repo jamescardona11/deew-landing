@@ -7,11 +7,11 @@ const Stats = () => {
             <div className="w-full lg:w-1/2 p-6">
               <div className="lg:max-w-lg">
                 <h2 className="mb-6 font-heading font-bold text-7xl text-gray-900">
-                  Get maximum results from all your projects.
+                  Obtenga los máximos resultados de todos sus proyectos.
                 </h2>
                 <p className="mb-20 text-base text-gray-600">
-                  Don't worry about the develop and take care for the most important; build a strong community to grow
-                  your brand.
+                  No te preocupes por el desarrollo, solo preocúpate de lo más importante; construir una comunidad
+                  fuerte, unida y amante de tu marca.
                 </p>
                 <ul>
                   <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
@@ -27,7 +27,7 @@ const Stats = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <p>No hidden fees</p>
+                    <p>No tenemos cobros ocultos</p>
                   </li>
                   <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
                     <svg
@@ -42,7 +42,7 @@ const Stats = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <p>Start with a free account</p>
+                    <p>Empieza desde cero</p>
                   </li>
                   <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
                     <svg
@@ -57,7 +57,7 @@ const Stats = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <p>Edit online, no software needed</p>
+                    <p>Soporte en cada etapa del proceso</p>
                   </li>
                 </ul>
               </div>
