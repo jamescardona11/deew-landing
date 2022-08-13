@@ -20,28 +20,53 @@ const Footer = () => {
             <p className="font-bold text-xl mb-5 text-gray-700">Deew</p>
             <div className="flex flex-col">
               <Link href="/">
-                <a className="mb-4 opacity-50 text-gray-700">Acerca de nosotros</a>
+                <a className="mb-4 opacity-50 text-gray-700">Home</a>
               </Link>
-              <Link href="/">
+              <Link href="#faq">
                 <a className="mb-4 opacity-50 text-gray-700">FAQ</a>
-              </Link>
-              <Link href="/">
-                <a className="mb-4 opacity-50 text-gray-700">Term & Condition</a>
               </Link>
             </div>
           </div>
           <div>
             <p className="font-bold text-xl mb-5 text-gray-700">Casos de éxito</p>
             <div className="flex flex-col">
-              <Link href="/">
-                <a className="mb-4 opacity-50 text-gray-700">NFTCracks</a>
-              </Link>
-              <Link href="/">
-                <a className="mb-4 opacity-50 text-gray-700">BullsBlocks</a>
-              </Link>
-              <Link href="/">
-                <a className="mb-4 opacity-50 text-gray-700">ExaLegend</a>
-              </Link>
+              <a
+                href="https://nftcracks.com"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="mb-4 opacity-50 text-gray-700"
+              >
+                NFTCracks
+              </a>
+              <a
+                href="https://BullsBlocks.com"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="mb-4 opacity-50 text-gray-700"
+              >
+                BullsBlocks
+              </a>
+              <a
+                href="https://exa.j11.io"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="mb-4 opacity-50 text-gray-700"
+              >
+                ExaLegends
+              </a>
+            </div>
+          </div>
+          <div>
+            <p className="font-bold text-xl mb-5 text-gray-700">Mint Now</p>
+            <div className="flex flex-col">
+              <a
+                href="https://mintexa.j11.io"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="mb-4 opacity-50 text-gray-700"
+              >
+                ExaLegend(free)
+              </a>
             </div>
           </div>
         </div>

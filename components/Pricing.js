@@ -1,8 +1,9 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Pricing = () => {
   return (
-    <div className="bg-white mt-20">
+    <div className="bg-white mt-20" id="price">
       <div className="container px-6 py-8 mx-auto">
         <h1 className="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl  text-center mb-10">Precio</h1>
         <div className="xl:items-center xl:-mx-8 xl:flex">
@@ -23,9 +24,12 @@ const Pricing = () => {
 
                   <p className="mt-1 text-gray-500 ">Pago único</p>
 
-                  <button className="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
-                    Empieza ahora
-                  </button>
+                  <a href="https://shop.j11.io" rel="noopener noreferrer" target="_blank">
+                    BullsBlocks
+                    <button className="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                      Empieza ahora
+                    </button>
+                  </a>
                 </div>
 
                 <div className="p-6">
@@ -150,9 +154,12 @@ const Pricing = () => {
 
                   <p className="mt-1 text-gray-500 ">Pago único</p>
 
-                  <button className="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
-                    Empieza ahora
-                  </button>
+                  <a href="https://shop.j11.io" rel="noopener noreferrer" target="_blank">
+                    BullsBlocks
+                    <button className="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                      Empieza ahora
+                    </button>
+                  </a>
                 </div>
 
                 <div className="p-6">
@@ -272,13 +279,13 @@ const Pricing = () => {
                   </p>
 
                   <h2 className="mt-4 text-2xl font-medium text-gray-700 sm:text-4xl ">
-                    Contactanos <span className="text-base font-medium"></span>
+                    Contáctanos <span className="text-base font-medium"></span>
                   </h2>
 
                   <p className="mt-1 text-gray-500 ">Pago único</p>
 
                   <button className="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
-                    Empieza ahora
+                    <Link href="#contact">Empieza ahora</Link>
                   </button>
                 </div>
 

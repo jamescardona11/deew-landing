@@ -2,10 +2,10 @@ import Image from 'next/image'
 
 const Features = () => {
   return (
-    <section className="bg-white ">
+    <section className="bg-white " id="features">
       <div className="container px-6 py-10 mx-auto">
         <h1 className="text-3xl font-semibold text-gray-800  lg:text-4xl  text-center">
-          Explora <span className="text-blue-500">features</span> al trabajar con nosotros.
+          Explora los <span className="text-blue-500">features</span> al trabajar con nosotros.
         </h1>
 
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2">

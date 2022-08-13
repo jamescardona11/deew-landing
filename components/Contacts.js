@@ -2,9 +2,27 @@ import React from 'react'
 
 import { Container } from '@/components'
 
+import Discord from '../public/icons/discord.svg?inline'
+import Linkedin from '../public/icons/linkedin.svg?inline'
+
 export const Contacts = () => {
+  async function handleOnSubmit(e) {
+    console.log('Email Sent ')
+    console.log(e.currentTarget.elements)
+    e.preventDefault()
+    const formData = {}
+    Array.from(e.currentTarget.elements).forEach((field) => {
+      if (!field.name) return
+      formData[field.name] = field.value
+    })
+
+    await fetch('/api/mail', {
+      method: 'POST',
+      body: JSON.stringify(formData),
+    })
+  }
   return (
-    <Container className="bg-white">
+    <Container className="bg-white" id="contact">
       <div
         className={
           'bg-gradient-to-b from-[#645cff] to-[#671AE4] rounded-xl py-10 px-5 flex items-center justify-center shadow-lg flex-col'
@@ -20,18 +38,16 @@ export const Contacts = () => {
             <div className="lg:py-12 lg:col-span-2">
               <p className="max-w-xl text-lg text-gray-700">
                 Si tienes alguna pregunta o alguna inquietud antes de iniciar un procedo con nosotros, puedes ponerte en
-                contacto con nosotros por medio de este formulario o contactándonos por medio de Instagram o Discord.
+                contacto con nosotros por medio de este formulario.
               </p>
 
               <div className="mt-8">
-                <a href="" className="text-2xl font-bold text-primary-500">
-                  Contact us:
-                </a>
+                <p className="text-2xl font-bold text-primary-500">Contáctanos:</p>
               </div>
             </div>
 
             <div className="p-8 bg-white rounded-lg shadow-lg lg:p-12 lg:col-span-3">
-              <form action="" className="space-y-4">
+              <form action="" onSubmit={handleOnSubmit} className="space-y-4">
                 <div>
                   <label className="sr-only" htmlFor="name">
                     Nombre
@@ -41,6 +57,7 @@ export const Contacts = () => {
                     placeholder="Name"
                     type="text"
                     id="name"
+                    name="name"
                   />
                 </div>
 
@@ -54,6 +71,7 @@ export const Contacts = () => {
                       placeholder="Email address"
                       type="email"
                       id="email"
+                      name="email"
                     />
                   </div>
 
@@ -66,6 +84,7 @@ export const Contacts = () => {
                       placeholder="Phone Number"
                       type="tel"
                       id="phone"
+                      name="phone"
                     />
                   </div>
                 </div>
@@ -79,6 +98,7 @@ export const Contacts = () => {
                     placeholder="Message"
                     rows="8"
                     id="message"
+                    name="message"
                   ></textarea>
                 </div>
 
