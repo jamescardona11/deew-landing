@@ -47,6 +47,7 @@ const Collections = () => {
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-5">
         {listBtn.map((item, i) => (
           <Button
+            key={i}
             onClick={() => handleClickMenu(item.name)}
             variant={item.status ? 'primary' : ''}
             className="w-full transition duration-1000 ease-in-out"
@@ -58,7 +59,7 @@ const Collections = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {list_collection.map((item, i) => (
-          <NFTItem data={item} />
+          <NFTItem key={i} data={item} />
         ))}
       </div>
     </Container>
