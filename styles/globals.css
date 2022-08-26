@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 .banner {
-  background-image: url('../public/banner-bg.png');
+  background-image: url('/banner.png');
   z-index: -1;
   content: '';
   will-change: transform;
