@@ -9,9 +9,13 @@ const Stats = () => {
                 <h2 className="mb-6 font-heading font-bold text-7xl text-gray-900">
                   Obtenga los máximos resultados de todos sus proyectos.
                 </h2>
-                <p className="mb-20 text-base text-gray-600">
+                <p className="mb-2 text-base text-gray-600">
                   No te preocupes por el desarrollo, solo preocúpate de lo más importante; construir una comunidad
                   fuerte, unida y amante de tu marca.
+                </p>
+                <p className="mb-20 text-base text-gray-600">
+                  Habiendo lanzado muchas colecciones nosotros mismos, entendemos lo que necesita para hacer realidad su
+                  visión creativa.
                 </p>
                 <ul>
                   <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
